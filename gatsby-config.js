@@ -4,7 +4,13 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: "Bruno Gonzaga Santos",
+    siteTitleAlt: `Bruno Gonzaga Santos - Developer`,
+    siteHeadline: `Bruno Gonzaga Santos - Developer`,
+    siteUrl: `https://brunogonzaga.dev/`,
+    siteDescription: `Bruno Gonzaga é um desenvolvedor Full Stack.`,
+    siteLanguage: `pt-br`,
+    author: `@brunogsantos`
   },
   plugins: [
     {
@@ -16,18 +22,18 @@ module.exports = {
             slug: `/blog`,
           },
           {
-            title: `About`,
+            title: `Sobre`,
             slug: `/about`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Github`,
+            url: `https://github.com/bgsantos86/`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Linkedin`,
+            url: `https://br.linkedin.com/in/brunogsantos/`,
           },
         ],
       },
@@ -42,7 +48,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
+        name: `Bruno Gonzaga Santos - Desenvolvedor e Cientista de dados`,
         short_name: `minimal-blog`,
         description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
         start_url: `/`,
